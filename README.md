@@ -9,7 +9,7 @@ a simple shell interpreter in c++. 用c++写的简单shell解释器
 ``` 
 git clone https://github.com/zavier-wong/wish
 cd wish
-mkdir build
+mkdir build && cd build
 cmake ..
 make
 ```
