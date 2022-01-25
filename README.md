@@ -12,6 +12,7 @@ cd wish
 mkdir build && cd build
 cmake ..
 make
+
 ```
 Built target in wish/build/wish
 
