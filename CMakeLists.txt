@@ -7,6 +7,4 @@ set(INC_DIR "/usr/include")
 set(LINK_DIR "/usr/lib")
 include_directories(${INC_DIR})
 link_directories(${LINK_DIR})
-link_libraries(ncurses)
-
 add_executable(wish main.cpp Wish.cpp Wish.h Jobs.cpp Jobs.h)
